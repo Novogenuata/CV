@@ -69,7 +69,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 main {
   display: grid;
-  grid-template-columns: 1fr; /* Updated to have one column */
+  grid-template-columns: 1fr; 
   gap: 10px;
 }
 
@@ -85,6 +85,25 @@ main {
   float: right;
   margin-right: 20%;
 }
+.fr{
+  float: inline-start;
+
+  border-bottom: var(--black) 2px solid;
+  
+}
+.fr > a:link{
+  color: var(--orange);
+}
+.fr > a:visited{
+  color: var(--orange);
+}
+.fr > a:hover{
+  color: var(--black);
+  text-decoration: none;
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
   body {
