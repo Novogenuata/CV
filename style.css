@@ -19,7 +19,7 @@ body{
 
 header{
     width: 300px;
-    height: 1100px;
+    height: auto;
     padding: 10px;
  
     background-color: var(--orange);
